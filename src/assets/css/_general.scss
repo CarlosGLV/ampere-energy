@@ -1,0 +1,60 @@
+.ion-page {
+	width: 100%;
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.875rem;
+	background: #FFF;
+}
+.ion-page .bt,
+.ion-page .bt:hover {
+	display: block;
+	background: #333;
+	color: #FFF;
+	text-transform: uppercase;
+	text-align: center;
+	padding: .75rem 1rem;
+}
+/* *************************************************** .timezone */
+.timezone {
+
+}
+.timezone .timer {
+	font-family: 'GothamCondensed-Medium', Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	height: 5rem;
+	margin: 3rem 0;
+}
+.timezone .timer h2 {
+	font-size: 1.5rem;
+}
+.timezone .timer p {
+	font-size: 5rem;
+	line-height: 5rem;
+}
+.timezone a {
+	cursor: pointer;
+}
+.timezone a.active {
+	cursor: default;
+	font-weight: bold;
+}
+/* *************************************************** .stopwatch */
+.stopwatch {
+
+}
+.stopwatch .watch {
+	font-family: 'GothamCondensed-Medium', Arial, Helvetica, sans-serif;
+	font-size: 5rem;
+	text-transform: uppercase;
+	line-height: 5rem;
+	text-align: center;
+	height: 3rem;
+	margin: 3rem 0;
+}
+.stopwatch a {
+	cursor: pointer;
+}
+.stopwatch a span {
+	font-size: 1.25rem;
+}

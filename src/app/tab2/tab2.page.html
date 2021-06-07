@@ -1,0 +1,28 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Stopwatch
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="stopwatch">
+  <ion-text>
+    <div class="watch">
+      {{ countUp }}
+    </div>
+  </ion-text>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <a (click)="startCount()" class="bt"><span class="icon-play"></span></a>
+      </ion-col>
+      <ion-col>
+        <a (click)="pauseCount()" class="bt"><span class="icon-pause"></span></a>
+      </ion-col>
+      <ion-col>
+        <a (click)="resetCount()"class="bt"><span class="icon-restart"></span></a>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

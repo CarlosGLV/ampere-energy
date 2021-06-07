@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      TimeZone
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="timezone">
+
+  <ion-text>
+    <div class="timer">
+      <h2>{{ zonesList?.requested_location}}</h2>
+      <p>{{ zonesList?.datetime | date:'HH:mm:ss' }}</p>
+    </div>
+  </ion-text>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <a (click)="setTime('Madrid, Spain')" class="bt" [ngClass]=" { 'active': actual == 'madrid' } ">Madrid</a>
+      </ion-col>
+      <ion-col>
+        <a (click)="setTime('London, United Kingdom')" class="bt" [ngClass]=" { 'active': actual == 'london' } ">London</a>
+      </ion-col>
+      <ion-col>
+        <a (click)="setTime('Boston, United States')" class="bt" [ngClass]=" { 'active': actual == 'boston' } ">Boston</a>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

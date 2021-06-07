@@ -1,0 +1,47 @@
+html, body,
+h1, h2, h3, h4, h5, h6,
+ul, li, 
+p, div, 
+form, fieldset, label, button, input, select, textarea,
+img { 
+	margin: 0; 
+	padding: 0; 
+	border: none; 
+	outline: none; 
+}
+a, 
+a:hover,
+a:active { 
+	color: #DDD;
+	text-decoration: none;
+	outline: none; 
+}
+ul li { 
+	list-style: none; 
+	line-height: 1.25em;
+}
+p { 
+	line-height: 1.25em;
+}
+strong {
+  	font-weight: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+  	line-height: 1.25em;
+  	text-rendering: optimizelegibility;
+  	margin: 0;
+}
+img {
+  	border: 0;
+  	-ms-interpolation-mode: bicubic;
+  	outline: 0;
+}
+.clear {
+	clear: both;	
+}
